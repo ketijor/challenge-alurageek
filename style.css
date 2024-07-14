@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap');
+
+/* * {
+  box-sizing: border-box;
+} */
+
+body {
+  min-height: 100vh;
+}
+/* ---------- CABEÇALHO E RODAPÉ ---------- */
+
+/* --- ELEMENTOS SEMÂNTICOS --- */
+header {
+  background-color: #5300C8;
+  box-shadow: 0 7px 0.9px 0 #00000025;
+  padding: 20px 0;
+}
+
+footer {
+  background-color: #5300C8;
+  box-shadow: 0 -10px 9.5px 0 #00000025;
+  padding: 64px 0;
+}
+/* --- FONTES --- */
+h2 {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  color: #E5E5E5;
+}
+
+h3 {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.rodape__texto__dev {
+  font-weight: 400;
+}
+
+.rodape__texto__alura {
+  font-weight: 200;
+}
+/* --- FLEXBOX --- */
+.logotipo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rodape__texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+/* ---------- PÁGINA PRINCIPAL ---------- */
+
+/* --- CONTAINER PRINCIPAL --- */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 10px;
+  gap: 70px;
+  padding: 60px 40px;
+  background-color: #FFFFFF;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  /* padding: 40px; */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px;
+}
+
+.container__cards {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: scroll;
+  box-shadow: -12px 10px 5.8px 0 #00000025;
+  gap: 10px;
+  padding: 15px;
+  max-height: 50vh;
+  white-space: pre-wrap;
+}
+.container__cards::-webkit-scrollbar {
+  width: 8px;
+  height: 0;
+  border-radius: 10px;
+  background-color: #D6D6D6;
+}
+
+/* li {
+  display: flex;
+  flex-grow: 1;
+} */
+
+.card {
+  /* width: 196px; */
+  /* height: 258px; */
+  background-color: #5D04D9;
+  border: 3px solid #000000;
+  border-radius: 10px;
+  box-shadow: -5px 6px 3.3px 0 #00000025;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  /* flex-grow: 1; */
+}
+.card-container--img {
+  width: 176px;
+  height: 174px;
+  border-radius: 10px;
+  border: 3px solid #000000;
+}
+.card-container--info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card-container--info p {
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.card-container--value {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-container--value p {
+  font-weight: 700;
+  font-size: 16px;
+}
+.container__cards--vazio {
+  display: none;
+  font-weight: 500;
+  color: #5D04D9;
+  text-transform: initial;
+}
+/* --- FORMULÁRIO --- */
+.formulario {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  gap: 40px;
+  padding: 40px;
+}
+
+.formulario__botao {
+  width: 392px;
+  height: 58px;
+  border: 3px solid #03318C;
+  border-radius: 30px;
+  padding-left: 14px;
+}
+
+.formulario__botao::placeholder {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  color: #03318C;
+}
+
+.formulario__botoes {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.formulario__botoes__botao {
+  width: 188px;
+  height: 55px;
+  border-radius: 15px;
+  background-color: #03318C;
+  color: #FFFFFF;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.botao__limpar {
+  border: 3px solid #03318C;
+  background-color: #FFFFFF;
+  color: #03318C;
+}
+
+/* ---------- PÁGINA RESPONSIVA ---------- */
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

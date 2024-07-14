@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio AluraGeek</title>
+  <link rel="shortcut icon" href="./assets/hearts-image-logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <span class="logotipo">
+      <img src="./assets/hearts-image-logo.svg" alt="Logotipo do Alura Geek">
+      <a href="index.html"><h2>AluraGeek</h2></a>
+    </span>
+  </header>
+
+  <main>
+    <section>
+      <div class="container">
+        <h3>Meus Produtos:</h3>
+        <ul class="container__cards" data-produtos>
+          <p class="container__cards--vazio">Nenhum produto foi adicionado.</p>
+          <!-- <li>
+            <div class="card">
+              <img class="card-container--img" src="./assets/produto1-image-card.svg" alt="Imagem do produto">
+              <div class="card-container--info">
+                <p>Nome do produto</p>
+                <div class="card-container--value">
+                  <p>R$ XX,XX</p>
+                  <img src="./assets/lixeira-icone-card.svg" alt="Ícone de exclusão" data-lixeira>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <img class="card-container--img" src="./assets/produto2-image-card.svg" alt="Imagem do produto">
+              <div class="card-container--info">
+                <p>Nome do Produto</p>
+                <div class="card-container--value">
+                  <p>R$ XX,XX</p>
+                  <img src="./assets/lixeira-icone-card.svg" alt="Ícone de exclusão" data-lixeira>
+                </div>
+              </div>
+            </div>
+          </li> -->
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <form class="formulario" data-formulario>
+        <h3>Adicionar Produto:</h3>
+        <input name="nome" type="text" placeholder="nome..." class="formulario__botao" data-nome>
+        <input name="preco" type="text" placeholder="preço..." class="formulario__botao" data-preco>
+        <input name="imagem" type="text" placeholder="imagem..." class="formulario__botao" data-imagem>
+
+        <div class="formulario__botoes">
+          <input type="submit" value="Salvar" class="formulario__botoes__botao">
+          <input type="reset" value="Limpar" class="formulario__botoes__botao botao__limpar">
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <span class="logotipo">
+      <img src="./assets/hearts-image-logo.svg" alt="Logotipo do Alura Geek">
+      <a href="index.html"><h2>AluraGeek</h2></a>
+    </span>
+    <div class="rodape__texto">
+      <p class="rodape__texto__dev">Desenvolvido por Keti Jorgensen</p>
+      <p class="rodape__texto__alura">Alura Latam - 2024</p>
+    </div>
+  </footer>
+  <!-- <script src="./js/script.js" type="module"></script> -->
+  <script src="./js/exibirProdutos.js" type="module"></script>
+  <script src="./js/criarProdutos.js" type="module"></script>
+  <script src="./js/excluirProdutos.js" type="module"></script>
+</body>
+</html>
