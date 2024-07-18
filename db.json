@@ -1,0 +1,58 @@
+{
+  "produtos": [
+    {
+      "nome": "Stormtrooper",
+      "preco": "60",
+      "imagem": "./assets/produto1-image-card.svg",
+      "id": "1"
+    },
+    {
+      "nome": "Game Boy Classic",
+      "preco": "80",
+      "imagem": "./assets/produto2-image-card.svg",
+      "id": "2"
+    },
+    {
+      "nome": "Spider-Man",
+      "preco": "10",
+      "imagem": "https://upload.wikimedia.org/wikipedia/pt/7/78/Spider-Man_jogo_2018_capa.png",
+      "id": "3"
+    },
+    {
+      "nome": "Optimus Prime",
+      "preco": "40",
+      "imagem": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f1d7ce3b-8478-4a0f-8615-16565c53b3bf/d6rjmtv-8ffef65a-004b-4c1d-9d7d-433a7e102cf4.jpg/v1/fit/w_375,h_375,q_70,strp/more_magnus_2_by_doubledealer93_d6rjmtv-375w.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcL2YxZDdjZTNiLTg0NzgtNGEwZi04NjE1LTE2NTY1YzUzYjNiZlwvZDZyam10di04ZmZlZjY1YS0wMDRiLTRjMWQtOWQ3ZC00MzNhN2UxMDJjZjQuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.kkQ9T3GYIPdZFUbMdQpJ2eEYp-CC5i9y1tkMUPPqy8w",
+      "id": "4"
+    },
+    {
+      "nome": "Rubeus Hagrid",
+      "preco": "30",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_632538-MLB51776244974_092022-O.webp",
+      "id": "5"
+    },
+    {
+      "nome": "Zuko",
+      "preco": "20",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_603387-MLB54269565278_032023-O.webp",
+      "id": "6"
+    },
+    {
+      "nome": "Ket",
+      "preco": "99",
+      "imagem": "./assets/cat-doll.jpg",
+      "id": "7"
+    },
+    {
+      "id": "0e8a",
+      "nome": "Gohan",
+      "preco": "35",
+      "imagem": "https://actionfigurebrasil.com.br/cdn/shop/files/boenco-bandai-dragon-ball-super-hero-limit-breaker-super-saiyan-2-gohan-36746--img_177436_1.jpg?v=1718607344"
+    },
+    {
+      "id": "3ff6",
+      "nome": "Ket",
+      "preco": "91",
+      "imagem": "./assets/cat-doll.jpg"
+    }
+  ]
+}
