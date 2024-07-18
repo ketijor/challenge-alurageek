@@ -31,5 +31,5 @@ async function excluiProduto(id) {
 export const conectaApi = {
   listaProdutos,
   criaProduto,
-  excluiProduto,
+  excluiProduto
 }
