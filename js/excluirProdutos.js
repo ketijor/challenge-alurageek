@@ -7,6 +7,8 @@ async function excluirProduto(id) {
     } catch {
       alert('Não foi possível excluir o produto.');
     }
+
+    window.location.reload(true);
   }
 }
 
