@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Desafio AluraGeek</title>
+  <title>Challenge AluraGeek</title>
   <link rel="shortcut icon" href="./assets/hearts-image-logo.ico" type="image/x-icon">
   <link rel="stylesheet" href="./styles/reset.css">
   <link rel="stylesheet" href="./styles/style.css">
@@ -13,7 +13,7 @@
 <body>
   <header>
     <span class="logotipo">
-      <img src="./assets/hearts-image-logo.svg" alt="Logotipo do Alura Geek">
+      <img src="./assets/hearts-image-logo.svg" alt="Logotipo do AluraGeek">
       <a href="index.html"><h2>AluraGeek</h2></a>
     </span>
   </header>
@@ -23,7 +23,7 @@
       <div class="container">
         <h3>Meus Produtos:</h3>
         <ul class="container__cards" data-produtos>
-          <p class="container__cards--vazio">Nenhum produto foi adicionado.</p>
+          <!-- <p class="container__cards--vazio">Nenhum produto foi adicionado.</p> -->
           <!-- <li>
             <div class="card">
               <img class="card-container--img" src="./assets/produto1-image-card.svg" alt="Imagem do produto">
@@ -55,9 +55,9 @@
     <section>
       <form class="formulario" data-formulario>
         <h3>Adicionar Produto:</h3>
-        <input name="nome" type="text" placeholder="nome..." class="formulario__botao" data-nome>
-        <input name="preco" type="text" placeholder="preço..." class="formulario__botao" data-preco>
-        <input name="imagem" type="text" placeholder="imagem..." class="formulario__botao" data-imagem>
+        <input name="nome" type="text" placeholder="nome..." required class="formulario__botao" data-nome>
+        <input name="preco" type="text" placeholder="preço..." required class="formulario__botao" data-preco>
+        <input name="imagem" type="text" placeholder="imagem..." required class="formulario__botao" data-imagem>
 
         <div class="formulario__botoes">
           <input type="submit" value="Salvar" class="formulario__botoes__botao">
@@ -69,11 +69,11 @@
 
   <footer>
     <span class="logotipo">
-      <img src="./assets/hearts-image-logo.svg" alt="Logotipo do Alura Geek">
+      <img src="./assets/hearts-image-logo.svg" alt="Logotipo do AluraGeek">
       <a href="index.html"><h2>AluraGeek</h2></a>
     </span>
     <div class="rodape__texto">
-      <p class="rodape__texto__dev">Desenvolvido por Keti Jorgensen</p>
+      <p class="rodape__texto__dev">Desenvolvido por <a href="https://github.com/ketijor" target="_blank">Keti Jorgensen</a></p>
       <p class="rodape__texto__alura">Alura Latam - 2024</p>
     </div>
   </footer>

@@ -1,13 +1,13 @@
 import { conectaApi } from "./scriptApi.js";
 
 async function excluirProduto(id) {
-  await conectaApi.excluiProduto(id);
-
-  window.location.reload(true);
+  if (confirm('Tem certeza que deseja excluir este produto?')) {
+    try {
+      await conectaApi.excluiProduto(id);
+    } catch {
+      alert('Não foi possível excluir o produto.');
+    }
+  }
 }
 
 export { excluirProduto };
-
-
-// const lixeira = document.querySelector('[data-lixeira]');
-// lixeira.addEventListener('click', evento => excluirProduto(evento));

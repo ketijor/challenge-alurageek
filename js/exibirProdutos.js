@@ -24,17 +24,19 @@ function constroiCard(nome, preco, imagem, id) {
 async function listarProdutos() {
   try {
     const listaApi = await conectaApi.listaProdutos();
-    listaApi.forEach(elemento => lista.appendChild(constroiCard(elemento.nome, elemento.preco, elemento.imagem, elemento.id)));
+
+    if (listaApi.length) {
+      listaApi.forEach(elemento => lista.appendChild(constroiCard(elemento.nome, elemento.preco, elemento.imagem, elemento.id)));
+    } else {
+      lista.innerHTML = `<p class="container__cards--vazio">Nenhum produto foi adicionado.</p>`
+    }
 
     const lixeira = document.querySelectorAll('[data-lixeira]');
     lixeira.forEach(bt => {
       bt.addEventListener('click', () => excluirProduto(bt.id));
     })
-  } catch (error) {
-    console.log(error);
-    // const fraseVazio = document.querySelector('.container__cards--vazio');
-    // fraseVazio.style.display = 'block';
-    lista.innerHTML = `<p class="container__cards--vazio">Não foi possível carregar a lista de vídeos.</p>`
+  } catch {
+    lista.innerHTML = `<p class="container__cards--vazio">Não foi possível carregar a lista de produtos.</p>`
   }
 }
 

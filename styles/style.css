@@ -159,8 +159,16 @@ section {
   font-weight: 700;
   font-size: 16px;
 }
+.card-container--value img {
+  cursor: pointer;
+}
+.card-container--value img:hover {
+  background-color: #BB1F1F;
+  border-radius: 3px;
+  transition: .1s;
+}
 .container__cards--vazio {
-  display: none;
+  /* display: none; */
   font-weight: 500;
   color: #5D04D9;
   text-transform: initial;
@@ -207,6 +215,7 @@ section {
   font-weight: 500;
   font-style: normal;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .botao__limpar {

@@ -49,7 +49,13 @@
       "imagem": "https://actionfigurebrasil.com.br/cdn/shop/files/boenco-bandai-dragon-ball-super-hero-limit-breaker-super-saiyan-2-gohan-36746--img_177436_1.jpg?v=1718607344"
     },
     {
-      "id": "3ff6",
+      "id": "bbc6",
+      "nome": "Gaara",
+      "preco": "72",
+      "imagem": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRbT-TeumZhp20fWA_Ds_avDFAqdvULQY_J6SoYouPJCbdz8zajyARNVADSzV8acP9sjfqB6MV_4CTCXRmNqXVSkzuXART2V3mpdIR9qP1fy9Ni43zcOGfs&usqp=CAE"
+    },
+    {
+      "id": "d622",
       "nome": "Ket",
       "preco": "91",
       "imagem": "./assets/cat-doll.jpg"
