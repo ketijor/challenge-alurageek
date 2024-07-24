@@ -12,6 +12,8 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
   <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="NodeJS">
   <img src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white" alt="NPM">
+  <img src="https://img.shields.io/badge/json--server-323330?style=for-the-badge&logo=json&logoColor=white" alt="json-server">
+  <img src="https://img.shields.io/badge/MockAPI-ff69b4?style=for-the-badge&logoColor=white" alt="MockAPI">
 </div>
 
 ## 💻 Screenshot
